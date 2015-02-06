@@ -1,49 +1,68 @@
-// body { @include container(30em); }
-// nav { @include span(50%); }
+// ***********************************
+// BASE
+// ***********************************
 
-// body{
-// 	background: orange;
+body{
+	color: $body-text;
+	margin: 0;
+	padding: 0;
+	background: $color-body-bg;
+	line-height: $line-height-mobile;
+	font-family: $font-family-primary;
+	font-size: $font-size-mobile;
+	font-size: $line-height-mobile;
+	font-weight: $font-weight-body;
 
-// @include breakpoint(800px) {
-//     background: olive;
-//   }
-// color: #fff;
-
-// }
-
-// h1{
-// 	font-size: 35px;
-// }
-
-$primary-color: olive;
-
-body {
-    background: $primary-color;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #000;
+	@include breakpoint($break-menu){
+		font-size: $font-size;
+		line-height: $line-height;
+	}
 }
 
-.hero-unit {
-    margin: 50px auto 0 auto;
-    width: 70%;
-    font-size: 18px;
-    font-weight: 200;
-    line-height: 30px;
-    background-color: #eee;
-    border-radius: 6px;
-    padding: 60px;
+
+// ***********************************
+// PAGE STRUCTURE
+// ***********************************
+
+//Susy Maps
+$susy: (
+	columns: 12,
+	gutters: 1/2,
+	math: fluid,
+	gutter-position: inside,
+);
+
+#header, #content, .page{
+	overflow: hidden;  // clearfix
 }
 
-.hero-unit h1 {
-    font-size: 60px;
-    line-height: 1;
-    letter-spacing: -1px;
-}
+.page{
+	@include container($container);
+	background: $white;
+	padding: 0 3%;
+} // page
 
-.browsehappy {
-    margin: 0.2em 0;
-    background: #ccc;
-    color: #000;
-    padding: 0.2em 0;
-}
+#header{
+	background: $grey-light;
+
+	#header-wrapper{
+		@include span(12);
+	}	
+} // #header
+
+#content{
+	#primary{
+		@include span(12);
+		@include breakpoint($break-menu) {
+		    @include span(8);
+		 }
+	}
+
+	#aside{
+		@include span(12);
+		@include breakpoint($break-menu) {
+		    @include span(4);
+		 }
+	}	
+} // content
 

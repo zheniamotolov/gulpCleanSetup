@@ -58,7 +58,6 @@ gulp.task('compass', function() {
 
 gulp.task('html', function(){
     gulp.src('app/**/*.html')
-    .pipe(gulp.dest('build/'))
     .pipe(reload({stream:true}));
 });
 

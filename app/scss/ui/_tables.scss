@@ -1,0 +1,21 @@
+// ***********************************
+// TABLES
+// ***********************************
+
+
+td, th {
+    border: 1px solid $white;
+    padding: 7px;
+}
+
+th{
+	background: $grey-light;
+}
+
+
+tr{
+	&:nth-child(odd) {
+		background-color: $grey-light;
+
+	}
+}

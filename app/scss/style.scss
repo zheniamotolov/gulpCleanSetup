@@ -1,5 +1,21 @@
+
+// ***********************************
+// IMPORTS
+// Import susy, breakpoint, resets and grids
+// ***********************************
+// 
+
 @import "susy";
 @import "breakpoint";
+@import "reset";
+
+
+// ***********************************
+// HELPERS
+// ***********************************
+// 
+@import "variables";
+@import "mixins";
 
 
 
@@ -8,3 +24,49 @@
 // ***********************************
 // 
 @import "base";
+@import "typography"; // typography and links
+@import "images";
+@import "icons";
+
+
+
+// ***********************************
+// UI ELEMENTS
+// ***********************************
+//
+@import "ui/lists";
+@import "ui/tables";
+@import "ui/forms";
+@import "ui/buttons";
+@import "ui/search";
+@import "ui/breadcrumbs";
+@import "ui/pagination";
+@import "ui/panels-notifications";
+@import "ui/tabs";
+@import "ui/sliders";
+@import "ui/toggles";
+@import "ui/progress-bars";
+@import "ui/tool-tips";
+@import "ui/modals";
+@import "ui/accordions";
+
+
+
+// ***********************************
+// SECTIONS
+// ***********************************
+//
+// @import "sections/header";
+// @import "sections/footer";
+// @import "sections/content";
+// @import "sections/comments";
+// @import "sections/widgets";
+// @import "sections/single";
+// @import "sections/page";
+// @import "sections/front";
+// @import "sections/archive";
+// @import "sections/404";
+// @import "sections/author";
+
+	
+// @import "sections/navigation";
