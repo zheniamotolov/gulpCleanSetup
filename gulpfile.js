@@ -64,14 +64,10 @@ gulp.task('html', function(){
 
 
 
+
 // ////////////////////////////////////////////////
 // Build Tasks
 // // /////////////////////////////////////////////
-
-
-
-
-
 
 // clean out all files and folders from build folder
 gulp.task('build:clean', function (cb) {
@@ -96,52 +92,6 @@ gulp.task('build:remove', function (cb) {
 });
 
 
-
-
-
-
-
-
-
-// // clean out all files and folders from build folder
-// gulp.task('build:clean', function (cb) {
-// 	del([
-// 		'build/**'
-// 	], cb);
-// });
-
-// // rebuild specific folders and files
-// gulp.task('build', ['build:clean'], function(){
-//     // gulp.src(['app/**/*/', '!app/scss/**/*/'])
-//     // .pipe(gulp.dest('build/'));
-
-//     gulp.src(['app/js/**/*.min.js'])
-//     .pipe(gulp.dest('build/js'))  //javascript
-
-//     gulp.src(['app/css/**/*/'])
-//     .pipe(gulp.dest('build/css')); // css
-
-//      gulp.src(['app/**/*.html'])
-//     .pipe(gulp.dest('build/')); // html
-
-//     gulp.src(['app/images/**/*'])
-//     .pipe(gulp.dest('build/images')); // images
-
-//     gulp.src(['app/**/*.ico'])
-//     .pipe(gulp.dest('build/')); // ico - flavicon
-
-// });
-
-
-// gulp.task('build:remove',['build'], function (cb) {
-// 	del([
-// 		'build/images/', 
-// 		'build/index.html'
-// 	], cb);
-// });
-
-
-// gulp.task('build2', ['build', 'build:remove']);
 
 
 // ////////////////////////////////////////////////
