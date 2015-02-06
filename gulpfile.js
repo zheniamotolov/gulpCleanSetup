@@ -111,8 +111,8 @@ gulp.task('browser-sync', function() {
 // // /////////////////////////////////////////////
 
 gulp.task ('watch', function(){
-	gulp.watch('app/js/*.js', ['scripts']);
-	gulp.watch('app/scss/*.scss', ['compass']);
+	gulp.watch('app/js/**/*.js', ['scripts']);
+	gulp.watch('app/scss/**/*.scss', ['compass']);
   	gulp.watch('app/**/*.html', ['html']);
 });
 
