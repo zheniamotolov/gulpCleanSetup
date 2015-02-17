@@ -16,6 +16,4 @@ After cloning the project you can download all the depend node modules using:
 Create a deployment build with the following commands:
 
 	gulp build
-	gulp remove
 
-'Gulp build' moves all the files from your 'app' folder into a build folder.  'Gulp remove' removes any files that you do not want in your deployment.  These files can be configured as an array in the 'gulpfile.js' file.
