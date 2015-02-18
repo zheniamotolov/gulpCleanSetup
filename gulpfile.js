@@ -105,6 +105,14 @@ gulp.task('browser-sync', function() {
     });
 });
 
+// task to run build server for testing final app
+gulp.task('build:serve', function() {
+    browserSync({
+        server: {
+            baseDir: "./build/"
+        }
+    });
+});
 
 // ////////////////////////////////////////////////
 // Watch Tasks
