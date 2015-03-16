@@ -26,3 +26,6 @@ Create a deployment build with the following commands:
 To fire up a server and test the final build:
 
 	gulp build:serve
+
+## todo
+rework build
