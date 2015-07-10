@@ -8,7 +8,7 @@ Prior Ruby and Compass dependency have been removed and no longer require the us
 
 After cloning the project to your computer run the command below in your terminal to install all required node and bower packages.
 
-	1.  npm install && bower install	
+	1.  sudo npm install && bower install	
 		
 
 ## Start
