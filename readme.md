@@ -30,7 +30,7 @@ To fire up a server and test the final build:
 ---------------------------------------
 
 ## gulpfile.js
-Javascript concatenation is done in the config object in the guilpfile.  This controls the order as well as files to be be concatenated.  The config object also controls which files are EXCLUDED from the final build.
+Javascript concatenation is done in the config object in the guilpfile.  This controls the order as well as files to be be concatenated.  I went with a simple system in anticipation of ES6 built-in modules.  The config object also controls which files are EXCLUDED from the final build.
 
 ## .bowerrc
-Controls the location where bower packages will be loaded.
+Controls the location where bower packages will be installed.
