@@ -1,4 +1,4 @@
-# JL Gulp Starter
+# JL Gulp Starter 0.2
 
 JL Gulp starter is my current personal font-end framework using Gulp, Node, Sass, Susy, Breakpoint, SourceMaps, Browser-Sync, Autoprefixer and Uglify / Concat.
 
