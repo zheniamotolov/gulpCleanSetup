@@ -1,6 +1,6 @@
 # JL Gulp Starter 0.2
 
-JL Gulp starter is my current personal font-end framework using Gulp, Node, Sass, Susy, Breakpoint, SourceMaps, Browser-Sync, Autoprefixer and Uglify / Concat.
+jlGulp starter is my personal font-end framework using Gulp, Node, Sass, Susy, Breakpoint, SourceMaps, Browser-Sync, Autoprefixer and Uglify / Concat. This is a complete rewrite from version 0.1.
 
 Prior Ruby and Compass dependency have been removed and no longer require the use of any Ruby.
 
