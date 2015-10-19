@@ -1,3 +1,6 @@
+# This Repo is depreciated
+This repo is no longer under development.  Please use build "[SuperCell](https://github.com/joellongie/SuperCell)".
+
 # JL Gulp Starter 0.2
 
 jlGulp starter is my personal front-end framework using Gulp, Node, Sass, Susy, Breakpoint, SourceMaps, Browser-Sync, Autoprefixer and Uglify / Concat. This is a complete rewrite from version 0.1.
