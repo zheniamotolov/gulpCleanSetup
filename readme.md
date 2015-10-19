@@ -1,5 +1,5 @@
 # This Repo is depreciated
-**This repo is no longer under development.  Please use build "[SuperCell](https://github.com/joellongie/SuperCell)".**
+**This repo is no longer being maintained.  Please use build "[SuperCell](https://github.com/joellongie/SuperCell)".**
 
 # JL Gulp Starter 0.2
 
