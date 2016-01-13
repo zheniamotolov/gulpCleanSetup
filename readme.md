@@ -7,7 +7,7 @@ jlGulp starter is my former front-end framework using Gulp, Node, Sass, Susy, Br
 
 **Prior Ruby and Compass dependency have been removed and no longer required the use of any Ruby.**
 
-## YouTube Tutorials
+## YouTube Tutorials Playlist
 [![Gulp YouTube Demo Playlist](http://img.youtube.com/vi/LmdT2zhFmn4/0.jpg)](https://www.youtube.com/watch?v=LmdT2zhFmn4&list=PLv1YUP7gO_viROuRcGsDCNM-FUVgMYb_G)
 
 ## Install Packages
