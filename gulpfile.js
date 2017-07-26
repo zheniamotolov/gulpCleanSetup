@@ -141,7 +141,7 @@ gulp.task('build:remove', ['build:copy'], function (cb) {
 	del(config.buildFilesFoldersRemove, cb);
 });
 
-gulp.task('build', ['build:copy', 'build:remove']);
+gulp.task('build', ['build:remove']);
 
 
 // ////////////////////////////////////////////////
